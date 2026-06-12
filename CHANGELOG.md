@@ -1,9 +1,9 @@
 # Quantum KLAS LLC Website — Changelog
 
-## v1.0-website — June 11, 2026
+## v1.0 — June 12, 2026 (history rewritten)
 
-### Initial Release
-- 5-page professional website built (Mercury-style)
+### Initial Public Release
+- 5-page professional website (Mercury-style monochrome)
 - Home, Product (Diamond AI), About, Privacy, Terms
 - Deployed to GitHub Pages with custom domain
 - HTTPS/SSL via Let's Encrypt (auto-renews)
@@ -11,34 +11,35 @@
 
 ### Design System
 - Monochrome black/white/grey palette
-- Matches QuickSnap app design system (v0.2.1)
-- Professional SVG line icons (Tabler-style)
-- Gradient text on headings (white to grey)
-- Fully responsive (mobile, tablet, desktop)
+- Matches QuickSnap app design system
+- Professional SVG line icons
+- Gradient text on headings
+- Fully responsive
 
-### Content
-- Product name: Diamond AI (placeholder — may change)
+### Content & IP Protection
+- Product name: Diamond AI (placeholder)
 - Patent Pending badge on every page
 - Coming Soon CTAs for App Store and Google Play
-- Generic AI/tech descriptions (proprietary details
-  hidden until launch)
+- Generic AI/tech descriptions — proprietary product
+  concepts (instant-on, passive capture, capture workflow)
+  intentionally NOT disclosed publicly until launch
 - Location references genericized to "United States"
 
 ### Security
 - CSP, X-Frame-Options, X-Content-Type-Options headers
 - Canonical URLs on all pages
 - .gitignore for env files and secrets
+- Git history clean — no draft/internal copy ever exposed
 
-### Infrastructure
-- GitHub repo: klasview/quantumklas-website (public)
-- GitHub Pages with custom domain
-- Cloudflare DNS (5 records — 4x A + CNAME www)
-- Domain: quantumklas.com
+### Repository Note
+- Repository history was rewritten on 2026-06-12 to ensure
+  no pre-release drafts containing proprietary product
+  concepts were ever publicly browsable. Single clean
+  initial commit represents the public-ready v1.0 state.
 
 ### Known TODOs for v2
 - Update app name when finalized (currently "Diamond AI")
 - Add real screenshots once app store assets ready
 - Add team section when ready to go public
 - Update App Store / Google Play buttons when live
-- Consider adding logo (5 concepts created, awaiting
-  selection)
+- Logo: monogram concepts explored, awaiting final selection
